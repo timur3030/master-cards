@@ -1,13 +1,15 @@
 @media (min-width: 1440px) {
-  // .container {
-  // max-width: 1320px;
-  // }
+  .container {
+    padding: 50px;
+    // max-width: 1320px;
+  }
 }
 
 @media (max-width: 1439px) {
-  // .container {
-  // max-width: 1140px;
-  // }
+  .container {
+    padding: 50px;
+    // max-width: 1140px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -23,12 +25,13 @@
 }
 
 @media (max-width: 768px) {
-  // .container {
+  .container {
+    padding: 50px 20px;
   // max-width: 540px;
-  // }
+  }
   .promo {
     &__title {
-      font-size: 2.7rem;
+      font-size: 3.3rem;
     }
     &__subtitle {
       margin-top: 20px;
@@ -44,6 +47,9 @@
     }
     li {
       font-size: 1.25rem;
+    }
+    &__benefits-list {
+      padding-left: 20px;
     }
   }
 }
