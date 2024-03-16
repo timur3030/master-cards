@@ -1,0 +1,35 @@
+.promo {
+  padding: 50px;
+  &__img {
+    width: 100%;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  &__title {
+    font-size: 4rem;
+  }
+  &__subtitle {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+  &__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+  &__benefits-title {
+    font-size: 2rem;
+  }
+  &__benefits-list {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  li {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    list-style: disc;
+  }
+}
