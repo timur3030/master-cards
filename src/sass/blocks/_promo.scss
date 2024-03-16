@@ -1,5 +1,4 @@
 .promo {
-  padding: 50px;
   &__img {
     width: 100%;
   }
@@ -18,7 +17,9 @@
   &__row {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     margin-top: 50px;
+    gap: 50px;
   }
   &__benefits-title {
     font-size: 2rem;
