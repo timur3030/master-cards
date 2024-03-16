@@ -1,6 +1,8 @@
 .promo {
   &__img {
-    width: 100%;
+    img {
+      width: 100%;
+    }
   }
   h1,
   h2,
@@ -19,7 +21,6 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-top: 50px;
-    gap: 50px;
   }
   &__benefits-title {
     font-size: 2rem;
